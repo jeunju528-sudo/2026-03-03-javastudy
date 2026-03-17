@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class 메소드_7 {
 	static char change(char c) {
@@ -77,6 +78,8 @@ public class 메소드_7 {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+//		Scanner sc = new Scanner(System.in);
 		char c = change('a');
 		System.out.println(c);
 		
